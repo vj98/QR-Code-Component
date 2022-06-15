@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after {
+  background-color: hsl(212, 45%, 89%);
+  box-sizing: border-box;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 95vh;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 23%;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.img-qr {
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.text {
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.text-paragraph {
+  font-size: 15px;
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.align-text {
+  padding: 10px;
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+}
+
+/* Media Quries */
+@media only screen and (max-width: 1295px) {
+  .card {
+    width: 50%;
+  }
+  .align-text {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 1090px) {
+  .card {
+    width: 50%;
+  }
+  .align-text {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 888px) {
+  .card {
+    width: 60%;
+  }
+  .align-text {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 724px) {
+  .card {
+    width: 65%;
+  }
+  .align-text {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 724px) {
+  .card {
+    width: 70%;
+  }
+  .align-text {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 724px) {
+  .card {
+    width: 75%;
+  }
+  .align-text {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .card {
+    width: 100%;
+  }
+  .align-text {
+    font-size: 23px;
+  }
+}
+
+@media only screen and (max-width: 429px) {
+  .card {
+    width: 100%;
+  }
+  .align-text {
+    font-size: 20px;
+  }
+}
